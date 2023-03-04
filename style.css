@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    height: 100vh;
+    font-family: cursive;
+    background: rgba(0, 0, 255, 0.534);
+}
+
+.conteinar{
+    position: absolute;
+    left: 34%;
+    top: 20%;
+    width: 500px;
+    height: 500px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 2px 5px 10px black;
+}
+.month-name{
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+    font-size: 50px;
+    background: #FF5200;
+    color: #fff;
+}
+.day-name{
+    font-size: 25px;
+    margin-top: 20px;
+    color: rgb(69, 77, 83);
+}
+.day-number{
+    font-size: 100px;
+    margin-top: 20px;
+    color: rgba(0, 0, 0, 0.863);
+}
+.year{
+    font-size: 25px;
+    margin-top: 20px;
+    color: rgb(69, 77, 83);
+}
+
+.time{
+    display: flex;
+    text-align: center;
+    margin:50px 90px 50px 95px;
+    font-size: 40px;
+
+}
+
+.time-hour, .time-minute,.time-second,.time-c{
+    margin-right: 20px;
+}
